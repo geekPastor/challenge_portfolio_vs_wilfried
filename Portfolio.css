@@ -25,7 +25,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 10px ;
-    padding: 10px 5%;
+   
 }
 /*header .block{
     position: fixed;
@@ -69,7 +69,7 @@ header .logo h1{
 }
 
 .menu li a:hover{
-    color: #ff7200;
+    color: crimson;
     font-size: 30px;
 }
 .menu li :hover::after{
@@ -86,7 +86,7 @@ header .logo h1{
     font-size: 15px;
     color: #fff;
     padding: 18px 25px;
-    background: linear-gradient(#ff7200,#ff7222);
+    background: crimson;
     border-radius: 60px;
 } 
 
@@ -129,7 +129,7 @@ body{
 }
 .home .left h1{
     font-size: 70px;
-    color:#ff7200;;
+    color:crimson;
     font-weight: 600;
     padding: 0;
     margin-bottom: -10px;
@@ -222,7 +222,7 @@ section{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: linear-gradient(#ff7200,#ff7222);
+    background: crimson;
 }
 
 .title::before{
@@ -266,6 +266,10 @@ section{
 
 .Competences h4{
     font-size: 30px;
+}
+
+.Comptences p{
+    color: #4f4f4f;
 }
 
 .about{
@@ -316,6 +320,7 @@ ul li{
     width: 400px;
     object-fit: cover;
     object-position: top;
+    border-radius: 50px;
 }
 
 .main{
@@ -339,7 +344,7 @@ ul li{
 
 .list_parcours h1{
     font-size: 110px;
-    color: #ff7200;
+    color: crimson;
 }
 
 .list_parcours .description{
